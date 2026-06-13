@@ -82,16 +82,16 @@ def summarize(text):                      # R7 unbounded retry loop
 
 Tell your coding agent:
 
-> **Install the Fabled skill from https://github.com/hashiruu/fable-skill**
+> **Install the Fabled skill from https://github.com/hashiruu/fabled-skill**
 
 A capable agent will clone the repo into its skills directory for you. To do it by hand — clone so the agent auto-discovers `SKILL.md`:
 
 ```bash
 # Claude Code
-git clone https://github.com/hashiruu/fable-skill.git ~/.claude/skills/fabled
+git clone https://github.com/hashiruu/fabled-skill.git ~/.claude/skills/fabled
 
 # Codex / agents that read ~/.agents/skills
-git clone https://github.com/hashiruu/fable-skill.git ~/.agents/skills/fabled
+git clone https://github.com/hashiruu/fabled-skill.git ~/.agents/skills/fabled
 ```
 
 Start a new session — the skill activates whenever you write, review, debug, or operate code. No skills directory? Just paste the contents of [`SKILL.md`](./SKILL.md) into your system prompt.

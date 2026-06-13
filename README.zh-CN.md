@@ -82,16 +82,16 @@ def summarize(text):                      # R7 无上限重试循环
 
 对你的编程 Agent 说：
 
-> **从 https://github.com/hashiruu/fable-skill 安装 Fabled skill**
+> **从 https://github.com/hashiruu/fabled-skill 安装 Fabled skill**
 
 有能力的 Agent 会自动把仓库克隆进它的 skills 目录。手动安装的话——克隆到对应目录，让 Agent 自动发现 `SKILL.md`：
 
 ```bash
 # Claude Code
-git clone https://github.com/hashiruu/fable-skill.git ~/.claude/skills/fabled
+git clone https://github.com/hashiruu/fabled-skill.git ~/.claude/skills/fabled
 
 # Codex / 读取 ~/.agents/skills 的 Agent
-git clone https://github.com/hashiruu/fable-skill.git ~/.agents/skills/fabled
+git clone https://github.com/hashiruu/fabled-skill.git ~/.agents/skills/fabled
 ```
 
 然后开一个新会话——只要你在写代码、评审、调试或运维，skill 就会激活。没有 skills 目录？把 [`SKILL.md`](./SKILL.md) 的内容直接粘进系统提示词即可。
