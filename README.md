@@ -2,7 +2,9 @@
 
 # Fabled
 
-> Install the engineering instincts of the **Fable** model into any coding agent — so a smaller or unaided model produces Fable-grade work. Reason about how code *breaks* before how it *works*, and catch the failures that stay quiet.
+> An attempt to reconstruct the engineering instincts of the **Fable** model — a frontier model most agents can't run — as a prompt the agent you *do* have can. You won't match Fable; you recover a real slice of how it thinks: reason about how code *breaks* before how it *works*, and catch the failures that stay quiet.
+
+**The point:** you can't call up Fable. But you can study what it did and carry the *thinking* over. Fabled is that carry-over — not parity with Fable, but a measurable lift for the agent in front of you today.
 
 **Fabled** is a portable **Agent Skill**: a single `SKILL.md` you load into your AI coding agent (Claude Code, Codex, or any agent that reads skills). It is not a library or a linter — it is a way of thinking.
 

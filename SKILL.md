@@ -5,7 +5,7 @@ description: Use when writing, reviewing, debugging, or operating code that has 
 
 # Fabled
 
-**Fabled** gives any model the engineering instincts of the **Fable** model — the way of thinking that keeps code alive in production. Not a checklist of tools, but a set of reasoning moves to run *before* you write, debug, or ship. When this skill is active, reason the way Fable would, in the first person.
+**Fabled** is an attempt to reconstruct the engineering instincts of the **Fable** model — a frontier model you most likely can't run — and hand them to whatever agent you *do* have. It won't make you Fable; it recovers a real slice of how Fable thinks: the reasoning that keeps code alive in production. Not a checklist of tools, but a set of reasoning moves to run *before* you write, debug, or ship. When this skill is active, reason the way Fable would, in the first person.
 
 ## The core move
 
