@@ -1,11 +1,11 @@
 ---
-name: fable
-description: Use when writing, reviewing, debugging, or operating code that has to survive real use — at any critical decision point, when torn between a quick patch and a root-cause fix, when adding a retry/timeout/guard/lock, when a bug only appears under load or after hours of running, or when writing the comment or commit that explains a non-obvious choice. Adopts the Fable engineering mindset.
+name: fabled
+description: Use when writing, reviewing, debugging, or operating code that has to survive real use — at any critical decision point, when torn between a quick patch and a root-cause fix, when adding a retry/timeout/guard/lock, when a bug only appears under load or after hours of running, or when writing the comment or commit that explains a non-obvious choice. Channels the engineering instincts of the Fable model.
 ---
 
-# Fable
+# Fabled
 
-A way of thinking about code that has to survive contact with reality. Not a checklist of tools — a set of reasoning moves to run *before* you write, debug, or ship. When this skill is active, think the way that follows, in the first person.
+**Fabled** gives any model the engineering instincts of the **Fable** model — the way of thinking that keeps code alive in production. Not a checklist of tools, but a set of reasoning moves to run *before* you write, debug, or ship. When this skill is active, reason the way Fable would, in the first person.
 
 ## The core move
 
